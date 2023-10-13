@@ -24,7 +24,9 @@ public class Main {
             userManager.saveFile(user);
         } else {
             System.out.println("enter id of user");
-
+            //userNameString = input.next();
+            userManager.removeFile();
+            System.out.println("you removed user");
         }
     }
 }

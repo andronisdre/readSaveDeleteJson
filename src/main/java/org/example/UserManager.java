@@ -36,8 +36,10 @@ public class UserManager {
         System.out.println("User " + Main.userNameString + " saved!");
     }
 
-    public void removeFile(User user) throws IOException {
-
+    public void removeFile() throws IOException {
+        userList.remove("andre" ,1);
+        User user = new User()
+        User remove()
     }
 
 
