@@ -33,7 +33,11 @@ public class UserManager {
         FileWriter fw = new FileWriter(new File(fileName));
         gson.toJson(userList, fw);
         fw.close();
-        System.out.println("User saved!");
+        System.out.println("User " + Main.userNameString + " saved!");
+    }
+
+    public void removeFile(User user) throws IOException {
+
     }
 
 

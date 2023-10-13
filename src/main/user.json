@@ -22,5 +22,21 @@
   "Test User": {
     "id": 6,
     "username": "Test User"
+  },
+  "another test user": {
+    "id": 6,
+    "username": "another test user"
+  },
+  "andre": {
+    "id": 6,
+    "username": "andre"
+  },
+  "greta": {
+    "id": 6,
+    "username": "greta"
+  },
+  "bram": {
+    "id": 6,
+    "username": "bram"
   }
 }
