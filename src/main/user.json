@@ -1,46 +1,10 @@
 {
-  "Helena": {
+  "Lars": {
     "id": 1,
     "username": "Helena"
   },
-  "Doris": {
-    "id": 2,
-    "username": "Doris"
-  },
-  "Tore": {
-    "id": 3,
-    "username": "Tore"
-  },
-  "Janne": {
-    "id": 4,
-    "username": "Janne"
-  },
-  "NisseJanne": {
-    "id": 5,
-    "username": "NisseJanne"
-  },
-  "Test User": {
+  "rogan": {
     "id": 6,
-    "username": "Test User"
-  },
-  "another test user": {
-    "id": 6,
-    "username": "another test user"
-  },
-  "andre": {
-    "id": 6,
-    "username": "andre"
-  },
-  "greta": {
-    "id": 6,
-    "username": "greta"
-  },
-  "bram": {
-    "id": 6,
-    "username": "bram"
-  },
-  "dregolas": {
-    "id": 6,
-    "username": "dregolas"
+    "username": "rogan"
   }
 }

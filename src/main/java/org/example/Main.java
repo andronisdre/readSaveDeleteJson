@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static Scanner input = new Scanner(System.in);
-    public static String userNameString;
+    private static String userNameString;
     public static void main(String[] args) throws IOException {
         UserManager userManager = new UserManager();
 
@@ -24,9 +24,14 @@ public class Main {
             userManager.saveFile(user);
         } else {
             System.out.println("enter id of user");
-            //userNameString = input.next();
-            userManager.removeFile();
-            System.out.println("you removed user");
+            userNameString = input.next();
+            User user = new User();
+            user.setUsername(userNameString);
+            userManager.removeFile(user);
         }
+    }
+
+    public static String getUserNameString() {
+        return userNameString;
     }
 }
