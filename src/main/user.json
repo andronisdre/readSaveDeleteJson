@@ -3,8 +3,24 @@
     "id": 1,
     "username": "Helena"
   },
-  "rogan": {
-    "id": 6,
-    "username": "rogan"
+  "stig": {
+    "id": 3,
+    "username": "stig"
+  },
+  "olle": {
+    "id": 5,
+    "username": "olle"
+  },
+  "henke": {
+    "id": 5,
+    "username": "henke"
+  },
+  "tord": {
+    "id": 5,
+    "username": "tord"
+  },
+  "ulf": {
+    "id": 7,
+    "username": "ulf"
   }
 }

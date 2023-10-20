@@ -18,7 +18,6 @@ public class Main {
         if (choice == 1) {
             System.out.println("enter your username");
             User user = new User();
-            user.setId(6);
             userNameString = input.next();
             user.setUsername(userNameString);
             userManager.saveFile(user);
